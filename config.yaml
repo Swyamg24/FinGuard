@@ -1,0 +1,20 @@
+# File paths
+input_csv_path: 'data/transactions.csv'
+output_csv_path: 'reports/anomalies_report.csv'
+output_plot_path: 'reports/anomaly_distribution.png'
+
+# Rule-Based Engine Parameters
+high_value_threshold: 5000.0
+unusual_hours:
+  start: 2 # 2:00 AM
+  end: 5   # 5:00 AM
+rapid_fire:
+  window_minutes: 5
+  count_threshold: 3
+
+# Machine Learning Model Parameters
+# Contamination is the expected proportion of outliers in the data.
+# 'auto' lets the model decide, or you can set a float like 0.02 (2%).
+isolation_forest:
+  contamination: 'auto'
+  random_state: 42

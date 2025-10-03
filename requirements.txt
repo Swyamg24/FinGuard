@@ -1,0 +1,16 @@
+# Data Handling and Manipulation
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+
+# Configuration File Handling
+PyYAML
+
+# Data Visualization
+matplotlib
+seaborn
+
+# (Optional, for data generation)
+Faker
