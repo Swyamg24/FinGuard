@@ -39,5 +39,5 @@ The tool processes data in several stages:
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/FinGuard.git](https://github.com/your-username/FinGuard.git)
+git clone https://github.com/Swyamg24/FinGuard
 cd FinGuard
